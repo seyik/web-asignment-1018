@@ -1,3 +1,97 @@
-body{
-background-color: red ;
+body {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+       "header"
+        "nav"
+        "main"
+        "footer";
+    background-image: url(download.jpg);
 }
+
+.on, .off{
+    display:none;
+}
+/* Index style*/
+.index{
+    background-color: rgb(255, 255, 255);
+}
+
+.index img{
+height:20em;
+width:20em;
+border-radius:100%;
+}
+.csindex {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
+.index img {grid-area: r1; margin: 0 auto;}
+.index h2 {grid-area: r2;}
+.index p:nth-child(1) {grid-area: r3;}
+.index p:nth-child(2) {grid-area: r4;}
+
+.portfolio {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
+
+
+/* portfolio style */
+.portfolio{
+    background-color: rgb(255, 255, 255);
+}
+.blog{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
+
+.sitereport .SiteL {
+  height: 30em;
+  width:30em;
+  border-radius:0%;
+  float:left
+}
+
+.sitereport .ReportR {
+    height: 30em;
+    width:30em;
+    border-radius:0%;
+    float:middle
+  }
+
+.sitereport{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "SiteL" "ReportR";
+}
+
+
+
+
+
