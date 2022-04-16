@@ -20,8 +20,8 @@ body {
 }
 
 .index img{
-height:20em;
-width:20em;
+height:15em;
+width:15em;
 border-radius:100%;
 }
 .csindex {
@@ -90,6 +90,8 @@ border-radius:100%;
     grid-template-areas: 
     "SiteL" "ReportR";
 }
+
+
 
 
 
